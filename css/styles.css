@@ -2,13 +2,15 @@
     height: 500px;
 }
 
+.title-background {}
+
 .title-background img {
+    position: absolute;
     width: 100%;
     height: 500px;
     object-fit: cover;
-    position: absolute;
-    z-index: -1;
     filter: brightness(50%);
+    z-index: -1;
 }
 
 .title-container {
