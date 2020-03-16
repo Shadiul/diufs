@@ -35,6 +35,12 @@
 
 .btn-join {
     margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.btn-fill-up-form {
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
 #description-section {}
@@ -68,13 +74,6 @@
     .big-heading h1 {
         font-size: 2.5em;
     }
-    .title-background img {
-        height: 500px;
-        object-fit: cover;
-    }
-    .btn-join {
-        margin-top: 1em;
-    }
 }
 
 @media (max-width: 700px) {
@@ -83,14 +82,7 @@
         font-size: 2em;
         text-align: center;
     }
-    .title-background img {
-        height: 400px;
-        object-fit: cover;
-    }
     .title-container {
         text-align: center;
-    }
-    .btn-join {
-        margin-top: 0em;
     }
 }
