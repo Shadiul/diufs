@@ -1,88 +1,103 @@
 #title-section-dark {
-    height: fit-content;
-    color: #fff;
-    background-color: #222831;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/banner.jpg);
+  height: fit-content;
+  color: #fff;
+  background-color: #222831;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/banner.jpg);
 }
 
 #title-section-light {
-    height: fit-content;
-    color: #000;
-    background-color: #eeeeee;
-    background-size: cover;
-    background-image: linear-gradient(rgba(190, 190, 190, 0.5), rgba(190, 190, 190, 0.5)), url(/img/banner2.png);
+  height: fit-content;
+  color: #000;
+  background-color: #eeeeee;
+  background-size: cover;
+  background-image: linear-gradient(
+      rgba(190, 190, 190, 0.5),
+      rgba(190, 190, 190, 0.5)
+    ),
+    url(/img/banner2.png);
 }
 
 .title-container {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
 .navbar {
-    padding: 0%;
 }
 
 .navbar-brand {
-    font-weight: 900;
-    font-family: 'Righteous', cursive;
+  font-weight: 900;
+  font-family: "Righteous", cursive;
 }
 
-.big-heading h1 {
-    font-weight: 900;
-    font-size: 3em;
-    margin-top: 2em;
+.big-heading {
+  font-weight: 900;
+  font-size: 3em;
 }
 
-.btn-join {
-    margin-top: 3em;
-    margin-bottom: 3em;
+.big-heading-column-1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.big-heading-column-2 {
+  margin-left: auto;
+}
+
+.login-form {
 }
 
 .btn-fill-up-form {
-    margin-top: 3em;
-    margin-bottom: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
-#description-section {}
+#description-section {
+}
 
 .description-container {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
-#ongoing-section {}
+#ongoing-section {
+}
 
 .ongoing-container {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
 #footer-section {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
 }
 
 .event-group {
-    margin-top: 3em;
-    padding: 0% 0% 0% 0%;
+  margin-top: 3em;
+  padding: 0% 0% 0% 0%;
 }
 
 .form-container {
-    padding: 3% 10%;
+  padding: 3% 10%;
 }
 
-@media (max-width: 990px) {
-    .big-heading h1 {
-        font-size: 2.5em;
-    }
+@media (max-width: 1199px) {
+  .big-heading {
+    font-size: 2.5em;
+  }
+
+  .big-heading-column-2 {
+    margin-left: auto;
+  }
 }
 
-@media (max-width: 700px) {
-    .big-heading h1 {
-        margin-top: 1em;
-        font-size: 2em;
-        text-align: center;
-    }
-    .title-container {
-        text-align: center;
-    }
+@media (max-width: 768px) {
+  .big-heading {
+    margin-top: 1em;
+    font-size: 2em;
+  }
+  .title-container {
+    text-align: center;
+  }
 }
