@@ -4,7 +4,7 @@
   background-color: #222831;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(diufs/img/banner.jpg);
+    url(img/banner.jpg);
 }
 
 #title-section-light {
@@ -16,7 +16,7 @@
       rgba(190, 190, 190, 0.5),
       rgba(190, 190, 190, 0.5)
     ),
-    url(diufs/img/banner2.png);
+    url(img/banner2.png);
 }
 
 .title-container {
