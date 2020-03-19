@@ -13,10 +13,9 @@
   background-color: #eeeeee;
   background-size: cover;
   background-image: linear-gradient(
-      rgba(190, 190, 190, 0.5),
-      rgba(190, 190, 190, 0.5)
-    ),
-    url("/img/banner2.png");
+    rgba(190, 190, 190, 0.5),
+    rgba(190, 190, 190, 0.5)
+  );
 }
 
 .title-container {
@@ -24,11 +23,16 @@
 }
 
 .navbar {
+  padding: 0%;
 }
 
 .navbar-brand {
   font-weight: 900;
   font-family: "Righteous", cursive;
+}
+
+.headings-container {
+  margin-top: 2em;
 }
 
 .big-heading {
@@ -37,12 +41,17 @@
 }
 
 .big-heading-column-1 {
-  margin-top: auto;
-  margin-bottom: auto;
+  padding: 0%;
 }
 
 .big-heading-column-2 {
   margin-left: auto;
+  padding: 0%;
+}
+
+.img-mask {
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .login-form {
